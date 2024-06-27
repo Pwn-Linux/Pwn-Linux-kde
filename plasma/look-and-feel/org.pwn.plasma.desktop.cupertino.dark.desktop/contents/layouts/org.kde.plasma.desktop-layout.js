@@ -1,1 +1,1 @@
-loadTemplate("org.kde.plasma.desktop.cupertino")
+loadTemplate("org.pwn.plasma.desktop.cupertino")
