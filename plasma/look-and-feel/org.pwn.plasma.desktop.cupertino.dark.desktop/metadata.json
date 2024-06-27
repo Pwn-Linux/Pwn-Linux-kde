@@ -11,7 +11,7 @@
         "Description": "macOS style theme",
         "Id": "org.pwn.plasma.desktop.cupertino.desktop",
         "License": "GPLv2+",
-        "Name": "Cupertino",
+        "Name": "Pwn Cupertino",
         "ServiceTypes": [
             "Plasma/LookAndFeel"
         ],
