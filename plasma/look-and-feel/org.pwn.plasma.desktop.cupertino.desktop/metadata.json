@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Pwn Linux"
+            }
+        ],
+        "Category": "",
+        "Description": "macOS style theme",
+        "Id": "org.pwn.plasma.desktop.cupertino.dark.desktop",
+        "License": "GPLv2+",
+        "Name": "Cupertino Dark",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.01",
+        "Website": "https://pwn-linux.xyz/"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}

@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LayoutTemplate",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tohur@pwn-linux.xyz",
+                "Name": "Joshua Webb"
+            }
+        ],
+        "Category": "",
+        "Description": "macOS like layout with global menu and a dock",
+        "EnabledByDefault": true,
+        "Id": "org.pwn.plasma.desktop.cupertino",
+        "License": "LGPLv2+",
+        "Name": "Cupertino",
+        "Website": "https://pwn-linux.org"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}
