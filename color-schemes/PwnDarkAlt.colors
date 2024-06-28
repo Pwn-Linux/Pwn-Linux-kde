@@ -117,7 +117,7 @@ ForegroundVisited=120,120,120
 
 [Colors:Window]
 BackgroundAlternate=46,46,46
-BackgroundNormal=36,36,36
+BackgroundNormal=54,54,54
 DecorationFocus=49,91,239
 DecorationHover=49,91,239
 ForegroundActive=49,91,239
@@ -130,8 +130,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=120,120,120
 
 [General]
-ColorScheme=PwnDark
-Name=PwnDark
+ColorScheme=PwnDarkAlt
+Name=PwnDarkAlt
 shadeSortColumn=true
 
 [KDE]
