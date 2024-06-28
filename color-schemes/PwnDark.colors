@@ -75,7 +75,7 @@ ForegroundVisited=49,91,239
 
 [Colors:Selection]
 BackgroundAlternate=79,127,239
-BackgroundNormal=49,91,239
+BackgroundNormal=28,105,225
 DecorationFocus=255,255,255
 DecorationHover=255,255,255
 ForegroundActive=252,252,252
@@ -144,3 +144,4 @@ activeForeground=222,222,222
 inactiveBackground=66,66,66
 inactiveBlend=85,85,85
 inactiveForeground=120,120,120
+
