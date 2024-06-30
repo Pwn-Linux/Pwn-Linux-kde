@@ -1,1 +1,1 @@
-loadTemplate("org.pwn.plasma.desktop.cupertino")
+loadTemplate("org.pwn.plasma.desktop.unity")
