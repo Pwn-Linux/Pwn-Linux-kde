@@ -30,8 +30,6 @@ var spacer = toppanel.addWidget("org.kde.plasma.panelspacer")
 spacer.currentConfigGroup = ["Configuration", "General"]
 spacer.writeConfig("expanding", false)
 
-//window buttons
-toppanel.addWidget("org.kde.windowbuttons")
 //window title
 toppanel.addWidget("org.kde.windowtitle")
 //appmenu
@@ -51,4 +49,4 @@ var spacerend = toppanel.addWidget("org.kde.plasma.panelspacer")
 //Make first spacer non expandable by default
 spacerend.currentConfigGroup = ["Configuration", "General"]
 spacerend.writeConfig("expanding", false)
-spacerend.writeConfig("length", 60)
+spacerend.writeConfig("length", panel.height)
