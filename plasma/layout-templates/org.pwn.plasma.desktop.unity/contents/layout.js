@@ -25,7 +25,6 @@ toppanel.floating = false
 toppanel.height = gridUnit * 2
 toppanel.offset=panel.height
 //Add widgets to the top panel
-
 var spacer = toppanel.addWidget("org.kde.plasma.panelspacer")
 //Make first spacer non expandable by default
 spacer.currentConfigGroup = ["Configuration", "General"]
@@ -44,3 +43,8 @@ var uswitcher= toppanel.addWidget("com.dv.uswitcher")
 uswitcher.currentConfigGroup = ["Configuration", "General"]
 uswitcher.writeConfig("showName", false)
 uswitcher.writeConfig("showSett", true)
+var spacer = toppanel.addWidget("org.kde.plasma.panelspacer")
+//Make first spacer non expandable by default
+spacer.currentConfigGroup = ["Configuration", "General"]
+spacer.writeConfig("expanding", false)
+spacer.writeConfig("length", 60)
