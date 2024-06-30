@@ -30,7 +30,11 @@ var spacer = toppanel.addWidget("org.kde.plasma.panelspacer")
 spacer.currentConfigGroup = ["Configuration", "General"]
 spacer.writeConfig("expanding", false)
 
-//Kickerdash
+//window buttons
+panel.addWidget("org.kde.windowbuttons")
+//window title
+panel.addWidget("org.kde.windowtitle")
+//appmenu
 toppanel.addWidget("org.kde.plasma.appmenu")
 //Spacer
 toppanel.addWidget("org.kde.plasma.panelspacer")
