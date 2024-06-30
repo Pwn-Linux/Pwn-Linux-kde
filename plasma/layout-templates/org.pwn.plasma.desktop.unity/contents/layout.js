@@ -31,9 +31,9 @@ spacer.currentConfigGroup = ["Configuration", "General"]
 spacer.writeConfig("expanding", false)
 
 //window buttons
-panel.addWidget("org.kde.windowbuttons")
+toppanel.addWidget("org.kde.windowbuttons")
 //window title
-panel.addWidget("org.kde.windowtitle")
+toppanel.addWidget("org.kde.windowtitle")
 //appmenu
 toppanel.addWidget("org.kde.plasma.appmenu")
 //Spacer
@@ -47,8 +47,8 @@ var uswitcher= toppanel.addWidget("com.dv.uswitcher")
 uswitcher.currentConfigGroup = ["Configuration", "General"]
 uswitcher.writeConfig("showName", false)
 uswitcher.writeConfig("showSett", true)
-var spacer = toppanel.addWidget("org.kde.plasma.panelspacer")
+var spacerend = toppanel.addWidget("org.kde.plasma.panelspacer")
 //Make first spacer non expandable by default
-spacer.currentConfigGroup = ["Configuration", "General"]
-spacer.writeConfig("expanding", false)
-spacer.writeConfig("length", 60)
+spacerend.currentConfigGroup = ["Configuration", "General"]
+spacerend.writeConfig("expanding", false)
+spacerend.writeConfig("length", 60)
