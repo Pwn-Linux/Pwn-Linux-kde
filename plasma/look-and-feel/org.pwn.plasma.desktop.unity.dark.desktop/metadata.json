@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Pwn Linux"
+            }
+        ],
+        "Category": "",
+        "Description": "Ubuntu Unity style theme",
+        "Id": "org.pwn.plasma.desktop.unity.dark.desktop",
+        "License": "GPLv2+",
+        "Name": "Pwn Unity Dark",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.01",
+        "Website": "https://pwn-linux.xyz/"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}
