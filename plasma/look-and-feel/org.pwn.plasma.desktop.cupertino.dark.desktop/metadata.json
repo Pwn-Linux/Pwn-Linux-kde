@@ -9,9 +9,9 @@
         ],
         "Category": "",
         "Description": "macOS style theme",
-        "Id": "org.pwn.plasma.desktop.cupertino.desktop",
+        "Id": "org.pwn.plasma.desktop.cupertino.dark.desktop",
         "License": "GPLv2+",
-        "Name": "Pwn Cupertino",
+        "Name": "Pwn Cupertino Dark",
         "ServiceTypes": [
             "Plasma/LookAndFeel"
         ],
